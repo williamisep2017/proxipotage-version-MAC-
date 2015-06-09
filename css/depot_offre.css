@@ -1,0 +1,421 @@
+identi/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// BASE  //////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+body{
+ 	margin: 0;
+	padding: 0;
+	margin-bottom: 0px;
+	background-color: #F4F4F7;
+ 	background-repeat:no-repeat;
+ 	background-position: center top;
+ 	overflow-X:hidden;	
+ }
+h1{	font-size: 2.3em;
+	font-weight: 700;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	color:white;
+	/*color: rgba(0, 0, 0, 0.3);*/
+	margin-left: 2em;
+	line-height: 96px;
+}
+h2{
+	font-size: 1.5em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	color: white;/*#0eb377*/
+	margin-left: 2em;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+h3{
+	font-size: 1em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	color: black;
+}
+a{color : inherit; 
+	text-decoration: none;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// CONTENT /////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+
+
+input{
+	margin-bottom: 15px;
+
+}
+
+fieldset{
+	border: 0 none;
+	
+}
+
+.wrap_depo{
+position: relative;
+  		width: 85%;
+  		margin: 0px auto;}
+
+.wrap {position: relative;
+  		width: 85%;
+  		margin: 0px auto;}
+.helpme{
+	border: 1px solid gray;
+	height: 20px;
+	width: 20px;
+	border-radius: 100px;
+
+	line-height: 20px;
+
+	text-align: center;
+	color: rgba(0, 0, 0, 0.3);
+	margin-bottom: 5px;
+}
+
+.title{
+	background-color: #0eb377;
+	height: 96px;
+	margin-bottom: 2em;
+	position: relative;
+	width: 100%;
+}
+.title2{
+	background-color: 	#ef5350;
+	height: 96px;
+	position: relative;
+}
+.sous-title{
+	background-color: #565656;
+	height: 40px;
+	margin-bottom: 2em;
+	position: relative;
+	margin-bottom:0px; 
+}
+label{
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+ 	display: block;
+    width: 150px;
+    float: left;
+
+}
+span{
+	font-size: 0.8em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+}
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// ETAPE 1 /////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+
+.QVF{
+ 	background-color:#e7e7e7;
+ 	height: 60px;
+ 	line-height: 60px;
+ 	padding: 0em 0em 0em 2em;
+ 	display: table;
+ 	width: 100%;
+ 	font-size: 1em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	margin-bottom: 0px;
+	box-sizing:border-box;
+}
+.QVF-left{
+	display: table-cell;
+
+}
+.QVF-right{
+	display: table-cell;
+	vertical-align: bottom;
+	margin-bottom: 5px;
+	width: 30px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// ETAPE 2 /////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+.detail_offre{
+	background-color:#e7e7e7;
+	padding: 1em 0em 0em 2em;
+	display: table;
+	width: 100%;
+	font-size: 1em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	margin-bottom: 0px;
+	box-sizing:border-box;
+}
+.detail_offre-left{
+	display: table-cell;
+}
+.detail_offre-right{
+	display:table-cell;
+	vertical-align: bottom;
+	margin-bottom: 5px;
+	width: 30px;
+}
+
+#NOM-detail_offre{
+width: 200px;
+}
+#VAR-detail_offre{
+width: 200px;
+}
+#Pds-detail_offre{
+	width: 40px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// ETAPE 3: Localisation; //////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+
+.localisation{
+	background-color:#e7e7e7;
+	padding: 1em 0em 0em 2em;
+	display: table;
+	width: 100%;
+	font-size: 1em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	margin-bottom: 0px;
+	box-sizing:border-box;
+}
+.localisation-left{display: table-cell;}
+.localisation-right{display:table-cell;
+	vertical-align: bottom;
+	margin-bottom: 5px;
+	width: 30px;}
+#adresse_de_vente{
+	width: 300px;
+	height: 30px;
+	border-radius: 4px;
+	border: 1px solid black;
+}
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// ETAPE 4 /////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+.commentaire{
+background-color:#e7e7e7;
+ 	height: 60px;
+ 	line-height: 60px;
+ 	padding: 0em 0em 0em 2em;
+ 	display: table;
+ 	width: 100%;
+ 	font-size: 1em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	margin-bottom: 0px;
+	box-sizing:border-box;
+}
+
+.commentaire-left{
+display: table-cell;
+}
+
+.commentaire-right{
+	display:table-cell;
+	vertical-align: bottom;
+	margin-bottom: 5px;
+	width: 30px;
+}
+#comentaire-bloc{
+	width: 500px;
+	height: 70px;
+}
+#label-exception{
+	width: inherit;
+	text-transform: inherit;
+	font-size: 0.9em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	float: left;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// ETAPE 5 :ID; ///////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+.identite{display: table;
+width: 100%;
+height: 200px;
+margin-bottom: 40px;
+background-color:#e7e7e7;
+box-sizing:border-box;
+}
+
+.identite-left{width: 50%;
+font-family: "Oxygen", arial;
+margin-left: 5%;
+}
+.adresse_de_vente{
+	width: 300px;
+	height: 25px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// SUBMIT /////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+
+.submit{
+	text-decoration: none;
+	background-color: #0eb377;
+	width: 250px;
+	height: 50px;
+	color: white;
+	font-size: 2em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	border-radius: 10px;
+	border: 0px solid;
+	float: right;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.submit:hover{
+background-color: #0eb377;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// NON CONNECT CSS /////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////*/
+.non_connect-proposition{
+
+margin-top: 1.5em;
+background-color: gray;
+height: 200px;
+line-height: 200px;
+text-align: center;
+	font-size: 1.150em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	color: black;
+}
+.non_connect-proposition a{
+	color: blue;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////// FIN-NON CONNECT CSS /////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*--------------------------------------------------*\
+
+						$RESPONSIVE
+
+\*--------------------------------------------------*/
+/*
+@media all and (max-width: 960px){
+	.wrap {position: relative;
+	  		width: 800px;
+	  		margin: 0px auto;}
+	.QVF{width: 768px;}
+	.detail_offre{width: 768px;}
+	.commentaire{width: 768px;}
+	}
+@media all and (max-width: 800px){
+	.wrap {position: relative;
+	  		width: 680px;
+	  		margin: 0px auto;}
+	.QVF{width: 648px;}
+	.detail_offre{width: 648px;}
+	.commentaire{width: 648px;}
+	}
+
+	
+@media all and (max-width: 680px){
+	.wrap {position: relative;
+	  		width: 500px;
+	  		margin: 0px auto;}
+	.QVF{width: 468px;}
+	.detail_offre{width: 468px;}
+	.commentaire{width: 468px;}
+	#comentaire-bloc{
+	width: 400px;
+}
+h1{
+	text-align: center;
+	margin-left:0; 
+	
+}
+}*/
+@media all and (max-width: 500px){
+	
+	h1{	font-size: 1em;
+		margin-left: 0;
+		text-align: center}
+	
+	.wrap_depo {position: relative;
+	  		width: 400px;
+	  		margin: 0px auto;
+	  	}
+	
+	.QVF{width: 100%;
+		padding-left: 0;}
+	.detail_offre{width: 100%;padding-left: 0;}
+	.commentaire{width: 100%;padding-left: 0;}
+	#comentaire-bloc{
+		width: 300px;
+		padding-left: 0;
+	}
+}
+
+@media all and (max-width: 320px){
+	.localisation{
+		padding: 0;
+	}
+	label{
+		width: 100px;
+	}
+	.title{
+		font-size: 1em;
+		height: 50px;
+	}
+	h1{
+		line-height: 50px;
+
+		margin-left: 0;
+		text-align: center}
+	
+	.wrap_depo {position: relative;
+	  		width: 400px;
+	  		margin: 0px auto;
+	  	}
+	
+	.QVF{width: 100%;
+		padding-left: 0;}
+	.detail_offre{width: 100%;padding-left: 0;}
+	.commentaire{width: 100%;padding-left: 0;}
+	#comentaire-bloc{
+		width: 300px;
+		padding-left: 0;
+	}
+
+	fieldset{
+		width: 80px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

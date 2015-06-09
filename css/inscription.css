@@ -1,0 +1,161 @@
+/* /////////////////////////////////////////////////////////////////////////
+////////////////////////////    STYLE GLOBAL   /////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/		
+a{  
+	color : inherit;
+	text-decoration: none;
+}
+
+body{
+ 	margin: 0;
+	padding: 0;
+	margin-bottom: 0px;
+	background-color: #F4F4F7 ;
+	background-image:url(images/tomate1280x800opa50.jpg);
+ 	background-repeat:no-repeat;
+ 	background-position: center top;
+ 	overflow-X:hidden	
+ }
+h1{
+	font-size: 1.8rem;
+	font-family: "Titillium Web", helvetica, Verdana, Arial, sans-serif;
+	font-weight: 400;
+	color:#0eb377;
+	margin-bottom: 0px;
+	text-align: center;
+	width: 430px;
+	background-color: #666666;
+	margin-top: 4em;
+}
+h2{
+	font-size: 1.3em;
+	font-family:"Oxygen", helvetica, Arial, sans-serif;
+	font-weight: 700;
+	margin: 0px;
+}
+p{
+	margin-top: 0px;
+}
+label{
+font-family:'Oxygen',helvetica, Verdana, sans-serif;
+height: 25px;
+}
+
+ input{
+	padding-left: 5px;
+	margin: 0;
+	border: none;
+
+	height: 35px;
+	width:300px;
+	margin-bottom: 4px;
+	box-sizing:border-box;
+}
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////
+//////////////////////////       SECTION CONTENU       ///////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+.centrage{ margin-top: 20px; margin:  auto; width: 430px;}
+
+.wrap{
+	margin: 0 0 0 20px auto;
+}
+.wrap2{
+	margin: 0 auto;
+	width: 300px;
+}
+
+#zone-inscription{
+
+	background-color: rgba(0, 0, 0, 0.1);
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 420px;
+	border-color: white;
+	border-width: 0px;
+	position: relative;
+	}
+#zone-inscription:before {
+    content: '';
+    background: url(images/tomate1280x800opa50.jpg) fixed 0 0;
+    -webkit-filter: blur(5px);
+           -moz-filter: blur(5px);
+            -ms-filter: blur(5px);
+             -o-filter: blur(5px);
+                filter: blur(5px);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;    
+    z-index: -1;
+}
+
+
+.identite{
+margin-top: 20px;
+border-radius: 5px 5px 0  0;
+}
+#password2{
+	border-radius: 0 0 5px 5px;
+	
+}
+/*;
+.identite{width: 202px;}
+#localisation{width: 414px;}
+#code-postale{ width: 70px; height:25px;}
+#mail{width: 414px;}
+#password1{width: 414px; height: 25px;}
+#password2{width: 414px; height: 25px;}
+*/
+#conditions-utilisation{
+	width: 20px;
+	float: left;
+	margin-right:5px; 
+}
+.condition1{
+	text-align: justify;
+	font-size: 0.8em;
+}
+
+/*
+.bouton_localisation{
+	width:150px;
+	height: 30px;
+	background-color: gray;
+	color: white;
+	cursor: pointer;
+	font-size: 100%;
+	border-radius: 10px;
+	margin-left: 10%;
+}
+/*#prenom{
+	width: 40px;
+ 	height: 25px;
+ 	margin-right: 50%;*/
+.bouton_inscrire{
+	background-color: #0eb377;
+	height: 45px;
+	margin-top: 20px;
+	border-width: 2,5px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 100%;
+	color:white;
+}
+.condition{
+	color: #0eb377;
+}
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////
+////////////////////////// LE FOOTER   /////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+

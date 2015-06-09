@@ -1,0 +1,130 @@
+.wrap-profil{margin: 0 auto; width: 90%;}
+
+ul{
+display: inline-table;
+margin-top: 0 auto;
+list-style-type: none;
+width: 100%;
+padding: 0;
+}
+
+li{
+	display: inline;
+	font-weight: 700;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	color:black;
+	padding: 0;
+	margin: 0;
+	padding: 1% 4% 1% 4%;
+}
+.a-hover{
+padding: 16px;
+}
+.a-hover:hover{
+	color: #ECECEC;
+	background-color: #FF5252;
+	width:60px;
+	height: 120px;
+}
+label{
+margin-top: 10px;
+font-family: "Titillium-Web",arial,sans-serif;
+font-weight: 300;
+}
+
+#header-bottom-profil{
+padding: 0px;
+margin-top: 10px;
+background: none repeat scroll 0% 0% #ECECEC !important;
+display: block;
+text-align: center;
+vertical-align: center;
+}
+
+.infos-profil{text-align: center;}
+.title-profil{
+	font-size: 2.3em;
+	font-weight: 700;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	color: white;
+	margin-left: 2em;
+	line-height: 96px;}
+.main-title{
+	background-color: #FF5252;
+	height: 96px;
+	margin-bottom: 2em;
+	position: relative;
+}
+.infos-tittle{
+	font-family: 'Oxygene',helvetica,arial,sans-serif;
+	font-weight: 300;
+	margin: 0;
+	line-height: 30px;
+	margin-bottom: 14px !important;
+	background: none repeat scroll 0% 0% #ECECEC !important;
+	vertical-align: center;
+	margin:auto;
+	color: #FF5252;
+	margin-top: auto;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	padding: auto; 
+}
+	
+.elements{
+	margin-top: 10px;
+	font-family: 'Titillium-Web',arial,sans-serif;
+	font-weight: 300;
+}
+
+.adresse_profil{width: 300px;}
+.mod_profil{
+	background-color: #FF5252;
+	margin-bottom: 14px !important;
+	width: 100%;
+	vertical-align: center;
+	margin:auto;
+	color: white;
+	margin-top: auto;
+	height: 30px;
+	margin-top: 10px;
+	text-align: center;
+	padding: auto;
+	font-weight: normal;
+}
+.modif1{margin:auto; text-align: center;
+}
+.bouton_enregistrer{height: 50px; width: 150px;
+}
+
+.tr{
+	vertical-align:auto;
+}
+
+.tableau{
+	margin:auto;
+}
+
+.td{
+	padding-right: 40px;
+	background-color: #FBFBFB;
+}
+
+.th{
+	padding-right: 40px;
+	background-color: #FF5252;
+}
+
+
+
+
+
+
+
+
+
+
+

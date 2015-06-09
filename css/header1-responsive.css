@@ -1,0 +1,290 @@
+body{
+ 	margin: 0;
+ 	overflow-x:hidden;
+ }
+ p{
+ 	margin: 0px;
+ }
+a{color : inherit; text-decoration: none;}
+
+a:hover {
+	color: gray;
+	-webkit-transition-duration: 0.5s; 
+	-moz-transition-duration: 0.5s; 
+	-ms-transition-duration: 0.5s; 
+	-o-transition-duration: 0.5s; 
+	 transition-duration: 0.5s;
+}
+ header{ 
+		position: fixed; 
+		background-color:rgba(68, 68, 68, 0.95);
+		height: 60px;
+		line-height: 60px;
+		left: 0;
+		right: 0;
+		z-index: 9999;
+	 } 
+.menu-item{  
+	 /* Le menu*/
+	font-size: 16px;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif; 
+	font-weight: 300;
+	float : right;
+	color:#FFF;
+	margin-right: 40px;
+	margin-left: 30px;
+}
+
+.menu-item:hover {
+	color: gray;
+	border-bottom: 5px solid #0eb377;
+	 -webkit-transition-duration: 0.5s; 
+	 -moz-transition-duration: 0.5s; 
+	 -ms-transition-duration: 0.5s; 
+	 -o-transition-duration: 0.5s; 
+	 transition-duration: 0.5s;
+}
+		
+
+/*///La barre de recherche///*/
+#search{
+  width:;
+}
+
+.barre-recherchetxt input[type="submit"]{
+
+	background: url("images/loupe2.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(68, 68, 68, 0.95);
+	position: relative;
+	border: 1px solid rgba(68, 68, 68, 0.95);
+	border-radius: 0 3px 3px  0;	border-left: 0px solid;
+	height: 24px;
+	width: 24px;
+	cursor: pointer;
+	float: left;
+	margin-top: 18px;
+
+}
+
+
+.input-recherche[type="text"]{
+	color: gray;
+	margin-left: 5.6em;
+    background-color: rgba(68, 68, 68, 0.9);
+	border-left: 1px solid rgba(68, 68, 68, 0.95);
+	border-top: 1px solid rgba(68, 68, 68, 0.95);
+	border-bottom: 1px solid rgba(68, 68, 68, 0.95);
+	border-right: 0px solid;
+	height: 24px;
+	outline-color: none;
+	outline-width: thin;
+	width:150px;
+	height: 1.500rem;
+    transition:width .5s;
+    position: relative;
+    float: left;
+    box-sizing:border-box;
+    margin-top: 18px;
+    border-radius: 3px 0 0  3px;
+}
+
+.input-recherche:hover{
+	color: #0eb377;
+	-webkit-transition-duration: 0.5s; 
+	-moz-transition-duration: 0.5s; 
+	-ms-transition-duration: 0.5s; 
+	-o-transition-duration: 0.5s; 
+	transition-duration: 0.5s;
+}
+
+.input-recherche:focus {
+	color:black;
+   width:290px;
+   background-color: white;
+}
+
+.image-loupe{
+	margin-left: 304;
+	margin-top: 18px;
+	background-color: #565656;
+	border-right: 4px solid #565656;
+	border-left:4px solid #565656;
+	width: 35%;
+}
+
+.label-header {
+	display: block;
+    width: 50px;
+    float: left;
+	}
+
+.header-logo{
+	display: block;
+	float: left;
+	height: 100%;
+	margin-left: 40px;
+}
+.site-content{
+padding-top: 60px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////                                       ///////////////////////////////////////
+//////////////////////////            /!\ RESPONSIVE  /!\        ///////////////////////////////////////
+//////////////////////////                                       ///////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media all and (max-width: 1275px){
+	.input-recherche:focus {
+	color:black;
+   	width:200px;
+   	background-color: white;
+	}
+
+	@media all and (max-width: 1180px){
+	.input-recherche:focus {
+	color:black;
+   	width:150px;
+   	background-color: white;
+	}
+}
+
+@media all and (max-width: 1150px){
+	.nav-header{
+		margin-right: 40px;
+
+	}
+	.menu-item{  
+		 /* Le menu*/
+		font-size: 12px;
+		color:#FFF;
+		font-family: 'Oxygen', helvetica, Verdana, sans-serif; 
+		font-weight: 300;
+		float : right;
+
+		margin-right: 0px;
+		margin-left: 35px;
+	}
+	.input-recherche:focus {
+		color:black;
+	   width:150px;
+	   background-color: white;
+	}
+}
+/*@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2){*/
+@media all  and (max-width: 890px) {
+	
+/*----------------------------------------*\
+				HAMBURGER
+\*----------------------------------------*/
+	.site-content{
+		padding-top: 0;
+	}
+
+	.input-recherche:focus {
+	color:black;
+   	width:300px;
+   	background-color: white;
+	}
+	.header{
+		position: static;
+	}
+	.nav-header_hamburger{
+	    display: block;
+	    width: 50px;
+	    height: 60px;
+	    cursor: pointer; 
+	    position: relative;
+	    float: right;
+	}
+ 	.nav-header_hamburger:after {
+	    content: '';
+	    position: absolute;
+	    display: block;
+	    width: 1.1em;
+	    height: 0;
+	    top: 15px;
+	    right: 15px;
+	    box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; 
+  	}
+	.menu{
+		position: absolute;
+		z-index: 999;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	   	background-color: gray;
+	    width:250px;
+		transform: translateX(250px);
+		-webkit-transform:translateX(250px);
+	}
+	.menu a {
+		float: none;
+		display: block;
+		text-align: right;
+	    height: 50px;
+	    line-height: 50px;
+	    border-bottom: 1px solid #666666;
+    }
+	.menu-item{
+	 	padding-left: 0;
+	 	padding-top: 0;
+	 	padding-right: 20px;
+	 	padding-bottom: 0;
+	 	margin: 0;
+	 	overflow-x:hidden;
+	 	-webkit-overflow-scrolling-x:hidden;
+	 	font-size: 1em;
+	}
+	.menu-item:hover{
+		color: white;
+		border-bottom: none;
+		background-color: rgba(102, 102, 102, 0.8);
+		border-bottom: 1px solid white;	
+	}
+	.with--sidebar .site-pusher {
+	    transform: translateX(-125px);
+	    -webkit-transform:translateX(-125px);
+	}
+	.with--sidebar {
+	 	overflow: hidden;
+	}
+    .with--sidebar .site-cache {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    background-color: rgba(0, 0, 0, 0.6);
+	}
+
+}
+
+
+/*----------------------------------------*\
+				serach-barre
+\*----------------------------------------*/
+@media all and (max-width: 580px){
+	.input-recherche:focus {
+	color:black;
+   	width:150px;
+   	background-color: white;
+	}
+	.input-recherche[type="text"]{
+		margin-left: 0em;
+
+	}
+	.header-logo{
+			margin-left: 0;
+		}
+}
+
+@media all and (max-width: 320px){
+	.nav-header{
+		margin-right: 10px;
+	}
+}
+
+

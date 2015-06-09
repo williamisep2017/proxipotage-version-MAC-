@@ -1,0 +1,99 @@
+.wrap-apropos{
+	width: 85%;
+	margin: 0 auto;
+}
+
+body{
+  
+    font-family: "oxygen" ,helvetica, Arial, sans-serif;
+    color:  #616972;
+    font-weight: 300;
+ 	margin: 0;
+	padding: 0;
+	margin-bottom: 80px;
+	background-color: #F4F4F7;
+ 	overflow-X:hidden;	
+ }
+h1{
+	font-size: 2.5rem;
+	font-family: "oxygen", helvetica, Verdana, Arial, sans-serif;
+	font-weight: 400;
+	color:#000;
+}
+h2{
+	font-size: 1.3em;
+	font-weight: 700;
+	margin: 0px;
+}
+h3{
+	margin: 0px;
+}
+h4{margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "oxygen" ,helvetica, Arial, sans-serif;
+	color: black;
+	font-weight: 700;
+	font-size: 90%;
+}
+
+.partie1{
+	margin-top:20px;
+	margin-bottom: 50px;
+
+}
+.partie2{
+text-align: center;
+height: 130px;
+padding: 20px;
+width: 100%;
+}
+.partie3{
+	width: 85%;
+}
+.explain{
+	text-align: center;
+	font-size: 1.4em;
+}
+.all-horloge{
+	display: inline-block;
+	width: 30%;
+}
+.horloge{
+	display: inline-block;
+	border: 1px solid none;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	background-color: #0EB377;
+	text-align: center;
+	font-size: 4em;
+	font-family: arial;
+	font-weight: bold;
+	color: #F4F4F7;
+	margin: 0 10% 0 10%;
+}
+
+@media all and (max-width: 1050px){
+	h4{
+		font-weight: 700;
+	font-size: 70%;
+	}
+}
+
+@media all and (max-width: 760px){
+	.horloge{
+		display: none;
+	}
+	.all-horloge{
+		display: none;
+		
+	}
+	.partie2{
+		height: 0px;
+		
+	}
+
+}
+
+

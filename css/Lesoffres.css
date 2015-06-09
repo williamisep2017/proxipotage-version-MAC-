@@ -1,0 +1,179 @@
+/*/////////////////////////////////////////////////////////////////////
+//////////////////////////////     BASE   /////////////////////////////
+///////////////////////////////////////////////////////////////////////*/
+.wrap-lesoffres{position: relative;
+  		width: 960px;
+  		margin: 0px auto;}
+
+a{  color : inherit;
+	text-decoration: none;}
+
+h4{
+	margin: 0;
+	padding: 0;
+}
+body{
+ 	margin: 0;
+	padding: 0;
+	margin-bottom: 0px;
+	background-color: white ;
+	/*background-image:url(images/panier_fruits_legumes.jpg);*/
+ 	background-repeat:no-repeat;
+ 	background-position: center top;
+ 	overflow-X:hidden	
+ }
+span{
+	font-family: "Oxygen", helvetica, Verdana, Arial, sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 1em;
+}
+
+/*///////////////////////////////////////////////////////////////////////////
+//////////////////////////////     title vert   /////////////////////////////
+/////////////////////////////////////////////////////////////////////////////*/
+
+.offres{
+	background-color: #0eb377;
+	height: 96px;
+	margin-bottom: 2em;
+	position: relative;
+}
+.title-lesoffres{	
+	font-size: 2.3em;
+	font-weight: 700;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	color:white;
+	/*color: rgba(0, 0, 0, 0.3);*/
+	margin-left: 2em;
+	line-height: 96px;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////     LES ANNONCE ou produit en ligne   /////////////////////
+////////////////////////////////////////////////////////////////////////////////////////*/
+.produit {
+display: table;
+margin: 0px;
+position: relative;
+table-layout: fixed;
+width: 960px;
+border-bottom: solid 1px #D1D1D7;
+padding-bottom: 1em;
+margin-bottom: 1em;
+}
+.column-left{
+	background-color: rgba(0, 0, 0, 0);;
+	width: 252;
+	display: table-cell;
+}
+.box-images{
+	width:210px;
+	height:120px; 
+	box-sizing:border-box;
+}
+ .rectangle {
+  height: 25px;
+  width: 210px;
+  text-align : center;
+  line-height:25px;
+  background-color: #565656;
+  border-radius: 5px;
+  margin-right: 0px;
+  margin-top: 5px;
+ font-family: "Titillium Web", helvetica, Verdana, Arial, sans-serif;
+ color: white;
+}
+
+.column-right {
+ background-color: #e7e7e7;
+  display: table-cell;
+  width:708px;
+  vertical-align: top;
+}
+.title-blocright{
+	color: white;
+	font-size: 1em;
+	font-family: "Titillium Web", helvetica, Verdana, Arial, sans-serif;
+	font-weight: 400;
+	padding-left: 2em;
+	background-color: #565656;
+}
+.description-offre{
+	font-size: 1em;
+	font-family: "Titillium Web", helvetica, Verdana, Arial, sans-serif;
+	font-weight: 400;
+	padding-left: 3em;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////                                       ///////////////////////////////////////
+//////////////////////////            /!\ RESPONSIVE  /!\        ///////////////////////////////////////
+//////////////////////////                                       ///////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*--------------------------------------------------*\
+
+						$RESPONSIVE
+
+\*--------------------------------------------------*/
+@media all and (max-width: 960px){
+	.wrap-lesoffres {width: 800px;}
+	.produit {width: 800px;}
+	.column-right{width: 500px;}
+}
+@media all and (max-width: 800px){
+	.wrap-lesoffres {width: 680px;}
+	.produit {width: 680px;}
+	.column-right{width: 450px;}		
+	}
+	
+@media all and (max-width: 680px){
+	.wrap-lesoffres {width: 500px;}
+	.produit {width: 500px;}
+	.column-right{width: 260px;}	
+}
+
+@media all and (max-width: 500px){
+	.wrap-lesoffres {width: 320px;}
+	.produit {width: 320px;
+			  display: block;
+	}
+	.column-right{width: 320px;
+		display: block;
+		margin-top: 10px;
+		 }
+	.column-left{
+		width: 320px;
+		text-align: center;
+		}
+	.rectangle{
+		width: 320px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+	}
+	.box-images{
+		width:252px;
+		height: 145px;
+	}
+	.bouton_favoris{
+	background-color: #0eb377; /*#009900;*/
+	width:290px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border-style: solid;
+	border:1px;
+	cursor: pointer;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 100%;
+	color:white;
+
+}
+}
+
+
+

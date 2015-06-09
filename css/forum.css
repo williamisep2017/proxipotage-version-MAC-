@@ -1,0 +1,123 @@
+body{
+ 	margin: 0;
+	padding: 0;
+	margin-bottom: 0px;
+	background-color: #F4F4F7;
+ 	background-repeat:no-repeat;
+ 	background-position: center top;
+ 	overflow-X:hidden;	
+ }
+
+ a{
+ 	color:black;
+ }
+
+.sous-title{
+	background-color: #565656;
+		font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	height: 40px;
+	margin-bottom: 2em;
+	position: relative;
+	margin-bottom:0px; 
+}
+
+h1{	font-size: 2.3em;
+	font-weight: 700;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	color: white;
+
+}
+
+.title{
+	background-color: #0eb377;
+	height: 96px;
+	margin-bottom: 5em;
+	position: relative;
+		line-height: 96px;
+}
+
+.categories{
+	width: 60%;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	margin: auto;
+	background-color: rgb(171,134,134);
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+	padding-left: 10px;
+	border-color: black;
+	text-align: center;
+		margin: auto;
+
+}
+
+.sujet{
+	color:green;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+}
+
+.bouton_commenter{
+		color:red;
+		font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+		padding-left: 10%;
+
+}
+
+.cadre{
+	width: 100%;
+	margin: auto;
+	background-color: #C0C0C0;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	line-height: 50px;
+	margin-top: 10px;
+	padding-left: 10px;
+	border-color: black;
+	border-radius: 8px;
+
+}
+
+.petitcadre{
+	width: 60%;
+	margin: auto;
+	background-color: #9ACD32;
+	line-height: 35px;
+	margin-top: 10px;
+
+	border-color: black;
+	margin-left: 40%;
+	border-radius: 8px;
+
+
+}
+
+.wrap-forum{
+	width:75%;
+	margin: 0 auto;
+
+}
+
+.commentaire{
+	border-bottom: 3px solid white;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	padding-left: 5%;
+	
+}
+
+.ajouter{
+	font-size: 1em;
+	cursor: pointer;
+	margin:auto;
+	width: 200px;
+	line-height: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #7e57c2;/*#800080*/
+	color: white;
+	border:none;
+	text-align:center;
+	font-family: arial;
+}
+
+.bouton_commenter{
+font-family: arial;
+}

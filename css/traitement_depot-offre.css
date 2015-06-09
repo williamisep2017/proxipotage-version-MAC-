@@ -1,0 +1,138 @@
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// BASE  //////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+body{
+ 	margin: 0;
+	padding: 0;
+	margin-bottom: 0px;
+	background-color: #F4F4F7;
+ 	background-repeat:no-repeat;
+ 	background-position: center top;
+ 	overflow-X:hidden	
+ }
+h1{	font-size: 2.3em;
+	font-weight: 700;
+	font-family: 'Oxygen', helvetica, Verdana, sans-serif;
+	color: rgba(0, 0, 0, 0.3);
+	margin-left: 2em;
+	line-height: 96px;
+}
+h2{
+	font-size: 1.5em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	color: #0eb377;
+	margin-left: 2em;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+h3{
+	font-size: 1em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	color: black;
+	margin: 0px;
+}
+a{color : inherit; 
+	text-decoration: none;
+}
+td{
+	font-size: 1rem;
+	font-family:  Arial, sans-serif;
+	
+	text-decoration: bold;
+	color:black;
+	margin: 0px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// CONTENT /////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+.wrap{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.content{
+	background-color: #e9E5E7;
+
+}
+
+.title{
+	background-color: #0eb377;
+	height: 96px;
+	margin-bottom: 2em;
+	position: relative;
+}
+.title2{
+	background-color: 	#FF9900;
+	height: 96px;
+	position: relative;
+}
+.sous-title{
+	background-color: #565656;
+	height: 40px;
+	margin-bottom: 2em;
+	position: relative;
+	margin-bottom:0px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////
+///////////////////////////////       ID;    ///////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+
+.identite{
+display: table;
+width: 960px;
+height: 200px;
+margin-bottom: 40px;
+background-color:#e7e7e7;
+}
+
+.identite-left{
+	width: 50%;
+	display: table-cell;
+}
+.identite-right{width: 50%;
+display: table-cell;}
+
+/* /////////////////////////////////////////////////////////////////////////
+/////////////////////////////// SUBMIT /////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+
+.submit1{
+	text-decoration: none;
+	background-color: #0eb377;
+	width: 250px;
+	height: 50px;
+	color: white;
+	font-size: 2em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	border-radius: 10px;
+	border: 0px solid;
+	float: right;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.submit2{
+	text-decoration: none;
+	background-color: #e56262;
+	width: 250px;
+	height: 50px;
+	color: white;
+	font-size: 2em;
+	font-weight: 300;
+	font-family:'Oxygen',helvetica, Verdana, sans-serif;
+	border-radius: 10px;
+	border: 0px solid;
+	float: right;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.submit:hover{
+background-color: gray;
+}
+

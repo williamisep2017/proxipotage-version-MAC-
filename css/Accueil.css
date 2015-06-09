@@ -1,0 +1,401 @@
+								/* ///////// LES COULEURS UTILISES//////////
+								/////Texte en gris clair #616972
+								/////Le vert #0eb377
+								/////Le rouge #e56262*/
+
+											/*  //////////Permet d'ajouter une image en before/////////
+											.content h1::before { 
+											  content:url(images/potfleur.png);
+											  width: 20%;
+											}*/
+
+/* /////////////////////////////////////////////////////////////////////////
+////////////////////////////    STYLE GLOBAL   /////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/										
+body{
+  
+    font-family: "oxygen" ,helvetica, Arial, sans-serif;
+    color:  #616972;
+    font-weight: 300;
+ 	margin: 0;
+	padding: 0;
+	margin-bottom: 80px;
+	background-color: #F4F4F7;
+ 	overflow-X:hidden;
+ 	
+ 	
+ }
+/*h1{
+	font-size: 1.8rem;
+	font-family: "Titillium Web", helvetica, Verdana, Arial, sans-serif;
+	font-weight: 400;
+	color:#0eb377;
+	margin: 0px;
+}*/
+h2{
+	font-size: 1.3em;
+	font-weight: 700;
+	margin: 0px;
+}
+h3{
+	margin: 0px;
+}
+h4{margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "oxygen" ,helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+a{color : inherit; text-decoration: none;}
+
+a:hover {
+	color: gray;
+	-webkit-transition-duration: 0.5s; 
+	-moz-transition-duration: 0.5s; 
+	-ms-transition-duration: 0.5s; 
+	-o-transition-duration: 0.5s; 
+	 transition-duration: 0.5s;
+}
+
+
+.cb{  /* cb qui sert à éviter que le header déscende*/
+	clear: both;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////
+/////////////////////////////// HEADER-BOTTOM ////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+
+.header-bottom{	
+	height: 16em;
+    box-shadow: 0px 15px 15px -10px rgba(0, 0, 0, 0.35) inset;  
+	background-image:url(images/tomate1280x800opa50.jpg);
+	}
+
+.header-bottom_bienvenue{
+	color:#616972;
+	padding-left: 10em;
+    padding-top: 3em;
+    /*padding-bottom: 1.3em;*/
+    text-align: justify;
+    width:500px;
+    float: left;
+}
+
+#header-bottom_title1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Lobster", helvetica,"oxygen" ,helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 28px;
+	color: #fff;
+}
+
+#phrase-accroche{
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fff;
+	color:#fff;
+	font-size: 1.6rem;
+	font-family: "Oxygen", helvetica, Verdana, Arial, sans-serif;
+	font-weight: 700;
+}
+#phrase-explicative{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+	color: #fff;
+	font-family: helvetica,"oxygen" ,helvetica, Arial, sans-serif;
+}
+.clic{
+position: relative;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 3em;
+padding-top: 0.5em;
+margin-top:10px; 
+}
+.clic_bouton{
+	display: inline-block;
+	border: 1px solid white;
+	color: white;
+	border-radius: 8px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-bottom: 0.6em;
+	padding-top: 0.6em;
+	width: 280px;
+}
+.clic_bouton:hover{
+	background-color: white;
+	color: #ae8083;
+}
+
+#header-bottom_inscription-txt{
+	position: relative;
+	float: right;
+	font-size: 16px;
+	font-family: 'Oxygen', helvetica, Verdana, Arial, sans-serif;
+	font-weight: 300;
+	color: white;
+	background: #0eb377;
+	padding: 1.5em;
+	margin-right: 2.5em;
+}
+
+#header-bottom_inscription-txt1{
+	position: relative;
+	float: right;
+	font-size: 16px;
+	font-family: 'Oxygen', helvetica, Verdana, Arial, sans-serif;
+	font-weight: 300;
+	color: white;
+	background: #ff5252;
+	padding: 1.5em;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////
+//////////////////////////       SECTION CONTENU       ///////////////////////////
+////////////////////////////////////////////////////////////////////////////////*/
+.presentation{
+	max-width: 960px;
+	margin: 0px auto;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+.presentation-text{
+	text-align: justify;
+	width: 500px;
+	margin-right:1.5em;
+	float:left;	
+}
+.presentation-text h2{
+	border-bottom: 1px solid gray;
+	padding-bottom: 3px;
+}
+
+.presentation-text_bouton{
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 8px;
+	padding-bottom: 0.6em;
+	padding-top: 0.6em;
+	margin-left: 4em;
+	margin-right: 4em;
+}
+.presentation-text_bouton:hover{
+	background-color: rgba(128, 128, 128, 1);
+	color: #F4F4F7;
+
+}
+.presentation-picture{
+	height: 226px;
+	margin-left: 4.650em;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////
+////////////////////////// SECTION AJOUTS RECENTS     ///////////////////////////
+///////////////////////////////////////////////////////////////////////////////*/
+.title-new{
+	color: #393939; /*0eb377*/
+	margin-top: 0px;
+	margin-bottom: 0.2em;
+	font-size: 2.5em;
+	font-weight: bold;
+	border-bottom: 1px solid #d6d6d7;
+
+}
+.wrap{   
+    position: relative;
+    width: 1000px;
+    margin: 0px auto;
+}
+.content{
+	padding: 2% 11.1%;
+    text-align: justify;
+}
+.content h1{
+	
+	color:  #404852;
+	margin-top: 0px;
+	margin-bottom: 0.2em;
+}
+.content p{
+	margin-bottom: 1.25rem;
+	font-weight: 300;
+    line-height: 1.6em;
+}
+
+#global {    /*/// permet de déplacer toutes les photos et “voir offre“///*/
+	padding-bottom: 10px;
+}
+
+
+
+#bouton-voir-toutes-les-offres{
+	margin:  auto;
+	cursor: pointer;
+	width: 300px; 
+	height: 60px;
+	line-height: 60px;
+	font-family: "oxygen",helvetica,Arial,sans-serif;
+	font-size: 700;
+	color: #404852;
+	text-align: center; 
+	border: 2px solid #404852;
+    border-radius: 8px;
+   
+	/*text-shadow: 0px 1px 0px #b04c4c;*/
+	/*box-shadow:  0 0 5px #0eb377;*/
+}
+#bouton-voir-toutes-les-offres:hover{ 
+	color: white; 
+	background: #404852;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////
+////////////////////////// LE FOOTER   /////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*style="width: 430px; height: 20px "
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////                                       ///////////////////////////////////////
+//////////////////////////            /!\ RESPONSIVE  /!\        ///////////////////////////////////////
+//////////////////////////                                       ///////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (max-width: 1150px) {
+	h1{
+		font-size: 1.2rem;
+		font-family: "Titillium Web", helvetica, Verdana, Arial, sans-serif;
+		font-weight: 400;
+		color:white;
+		margin: 0px;
+	}
+	h2{
+		font-size: 1em;
+		font-weight: 700;
+		margin: 0px;
+	}
+	h3{
+		margin: 0px;
+	}
+	h4{margin-top: 0px;
+		margin-bottom: 0px;
+		font-family: "oxygen" ,helvetica, Arial, sans-serif;
+		font-weight: 300;
+		font-size: 15px;
+	}
+}
+@media all and (max-width: 1000px){
+	.wrap{
+		margin: 0 auto;
+
+	}
+}
+
+@media all and (max-width: 960px){
+	.presentation{
+	max-width: 500px;
+	margin: 0px auto;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	}
+	.presentation-picture{
+	display: none;
+	}
+	.recement-mis-ligne {
+	margin-left: auto;
+	margin-right: auto;
+	border-right: 5px solid #0eb377 ;
+	height: 200px;
+	width: 600px;
+	overflow: hidden;
+	overflow: scroll;
+	background: #F4F4F7;
+	background: -moz-linear-gradient(top, #F4F4F7 0%, #cec4bb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F4F4F7), color-stop(100%,#cec4bb));
+	background: -webkit-linear-gradient(top, #F4F4F7 0%,#cec4bb 100%);
+	background: -o-linear-gradient(top, #F4F4F7 0%,#cec4bb 100%);
+	background: -ms-linear-gradient(top, #F4F4F7 0%,#cec4bb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F4F4F7', endColorstr='#cec4bb',GradientType=0 );
+	background: linear-gradient(top, #F4F4F7 0%,#cec4bb 100%);   /*/// Gère l'effet background pour les autres navigateur///*/  
+	}
+}
+
+@media all and (max-width: 920px){
+	.header-bottom_bienvenue{
+	color:#616972;
+	padding-left: 3em;
+    padding-top: 1.3em;
+    /*padding-bottom: 1.3em;*/
+    text-align: justify;
+    width:500px;
+    float: left;
+	}
+}
+@media all and (max-width: 810px){
+	.header-bottom_bienvenue{
+	padding-left: 3em;
+    padding-top: 1.3em;
+    text-align: justify;
+    width:300px;
+    float: left;
+}
+
+	#phrase-explicative {
+		font-size: 10px;
+	}
+
+	#phrase-accroche{
+		font-size: 1rem;
+		font-family: "Titillium Web", helvetica, Verdana, Arial, sans-serif;
+		font-weight: 400;
+		margin: 0px;
+	}
+.content h1{
+	font-size: 2em;
+}
+.content{
+	padding: 1em 1em; 
+    text-align: center;
+}
+
+}
+
+@media all and (max-width: 625px){
+	.header-bottom_bienvenue{
+	display: none
+	}
+	.header-bottom{
+		background-image: none;
+		height: 60px;
+	}
+
+}
+
+
+@media all and (max-width: 320px){
+	#header-bottom_inscription-txt{
+	margin-right: 0em;
+}
+.content h1{
+	margin-bottom: 0.2em;
+	font-size: 0.8em;
+}
+}
+
+
+
+
